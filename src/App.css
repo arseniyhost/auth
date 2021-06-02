@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+body {
+    background: #4b5685;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.welcome {
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.welcome h1 {
+    color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.choose-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-group {
+    margin-bottom: 20px;
+}
+
+.login, .register {
+    text-align: center;
+}
+
+.inner-input, .btn {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+.error {
+    color: rgb(236, 55, 55);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.btn-change {
+    margin-bottom: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    background: rgb(226, 96, 96);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-inner h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.btn {
+    border: none;
+    background: rgb(44, 37, 37);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+form  h1{
+    margin-bottom: 20px; 
+}
+
+.btn-out {
+    margin-bottom: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    background: rgb(226, 96, 96);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.img-box {
+    margin-top: 20px;
+}
+
+.img-box img {
+    width: 400px;
+    height: auto;
 }
